@@ -147,8 +147,8 @@ background-repeat: no-repeat;
 background-position: center;
 max-width: 1440px;
 background-size: cover; 
-margin: auto;
 
+margin: auto;
 }
 
 .section-container {
@@ -184,12 +184,13 @@ height: 56px;
 border: none;
 margin: 0 auto;
 margin-top: 48px;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
 .section-main-btn:hover,
 .section-main-btn:focus {
 background-color:  #404BBF;
-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+
 }
 
 /* --------------------------------------- */
@@ -313,34 +314,32 @@ justify-content: center;
 
 .section-team-soc-item {
   width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  flex-shrink: 0;
-  background-color: #4D5AE5;
-  display: flex;
-}
-
-.section-team-soc-item:hover,
-.section-team-soc-item:focus {
-  background-color:  #404bbf;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1)
+  height: 40px; 
+ background-color: #4D5AE5;
+ border-radius: 50%;
+ display: flex;
 }
 
 .section-team-soc-link {
-align-items: center;
-justify-content: center;
+ align-items: center;
+ justify-content: center;
 
+}
+
+.section-team-soc-link:hover,
+.section-team-soc-link :focus {
+ background-color:  #404bbf;
 }
 
 .section-team-soc-icon {
   fill: #F4F4FD;
-  width: 100%;
   margin: auto;
+  width: 100%;
 }
 
 
 /* _---------------------------------------- */
-/* ---------------PORTFOLIO----------------- */
+/* ----------- ---PORTFOLIO----------------- */
 
 .section-portfolio {
  padding-top: 120px; 
@@ -505,8 +504,8 @@ gap: 16px;
   display: flex;
 }
 
-.footer-soc-item :hover,
-.footer-soc-item :focus {
+.footer-soc-item:hover,
+.footer-soc-item:focus {
   background-color: #31d0aa;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }

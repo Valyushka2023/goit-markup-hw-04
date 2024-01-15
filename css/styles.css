@@ -330,7 +330,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .section-team-soc-link:hover,
-.section-team-soc-link :focus {
+.section-team-soc-link:focus {
  background-color:  #404bbf;
 }
 

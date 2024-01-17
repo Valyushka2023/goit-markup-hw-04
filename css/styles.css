@@ -147,7 +147,6 @@ background-repeat: no-repeat;
 background-position: center;
 max-width: 1440px;
 background-size: cover; 
-
 margin: auto;
 }
 
@@ -303,7 +302,7 @@ font-size: 16px;
 line-height: 1.5; 
 letter-spacing: 0.02em;
 text-align: center;
-padding-bottom: 8px;
+margin-bottom: 8px;
 }
 
 .section-team-soc-list {
@@ -442,6 +441,8 @@ align-items: baseline
 
 .footer-logo-text {
   margin-right: 120px;
+ 
+ 
 }
 
 .footer-logo {
@@ -453,8 +454,6 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase; 
 display: inline-block;
-margin-bottom: 16px;
-
 }
 
 .footer-logo-part {
@@ -467,7 +466,7 @@ font-size: 16px;
 font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.02em;
-margin-top: 8px;
+margin-top: 16px;
 width: 264px;
 }
 
@@ -481,9 +480,6 @@ font-size: 16px;
 font-weight: 500;
 line-height: 1.5; 
 letter-spacing: 0.02em;
-width: 96px;
-display: inline;
-margin-bottom: 16px;
 }
 
 
